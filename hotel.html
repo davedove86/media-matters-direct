@@ -1,0 +1,52 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="en">
+<title>Media Matters Direct - Hotel Form</title>
+{% include head.html %}
+<body>
+
+  {% include header.html %}
+
+  <h1>Hotel Form</h1>
+
+  <div class="hotel-text">
+    <p>Please complete the form below and provide us with your details so we can process your request:</p>
+  </div>
+
+    <div class="form-style-8">
+        <form action="https://formspree.io/mark@mediamattersdirect.co.uk"
+        method="POST">
+        <h3>Media Matters Direct</h3>
+        <input type="text" name="field1" placeholder="Company Name" />
+        <input type="text" name="field1" placeholder="Contact Name" />
+        <input type="text" name="field1" placeholder="Position" />
+        <input type="text" name="field1" placeholder="Address" />
+        <input type="text" name="field1" placeholder="" />
+        <input type="text" name="field1" placeholder="" />
+        <input type="text" name="field1" placeholder="Postcode" />
+        <input type="text" name="number" placeholder="Tel" />
+        <input type="email" name="field2" placeholder="Email" />
+        <div class="center">
+          <p>To confirm that Media Matteres Direct have the authorisation of the managment to deliver a display stand for the above premisies.</p>
+        </div>
+        <input type="text" name="field1" placeholder="Name" />
+        <input type="text" name="date" placeholder="Date" />
+        <div class="center">
+          <p>We have agreed with the management to monitor their foyer/reception area “Media Matters Direct” will have sole rights for displaying advertising media. Any other material will be removed from the display and disposed of.</p>
+        </div>
+        <input type="text" name="field1" placeholder="Name" />
+        <input type="date" name="field1" placeholder="Date" />
+        <input type="text" name="field1" placeholder="Exemptions" />
+        <div class="submit">
+          <input type="button" value="Send Message" />
+        </div>
+      </form>
+    </div>
+
+
+{% include footer.html %}
+
+</body>
+</html>

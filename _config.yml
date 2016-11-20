@@ -1,0 +1,17 @@
+# Site settings
+title: Media Matters Direct
+description: Media Matters Direct are a media distribution company with many years experience in all aspects of distribution.
+email: mark@mediamattersdirect.co.uk
+baseurl: /media-matters-direct/
+url: http://www.mediamattersdirect.co.uk/
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 9000
+
+sass:
+  sass_dir: assets/css
+  style: :nested

@@ -1,0 +1,68 @@
+---
+---
+
+<!DOCTYPE html>
+<html class="en">
+<title>Media Matters Direct - Contact</title>
+{% include head.html %}
+<body>
+
+  {% include header.html %}
+
+  <h1>Contact Us</h1>
+
+  <div class="center">
+    <p>If you feel we may be able to help with your distribution requirements or would like any further information please contact us by email, phone or complete our contact form.</p>
+  </div>
+
+  <div class="services-wrap">
+    <div class="services-items">
+      <a href="mailto:mark@mediamattersdirect.co.uk">
+        <img src="{{site.baseurl}}/assets/img/email.png" alt="Email">
+        <h3>mark@mediamattersdirect.co.uk</h3>
+      </a>
+    </div>
+
+    <div class="services-items">
+      <a href="tel:07966152259">
+        <img src="{{site.baseurl}}/assets/img/phone.png" alt="Phone">
+        <h3>07966 152259</h3>
+      </a>
+    </div>
+  </div>
+
+  <h1>Send Us A Message</h1>
+
+    <div class="flex">
+      <div class="form-style-8">
+      <form action="https://formspree.io/mark@mediamattersdirect.co.uk"
+        method="POST">
+        <div class="col-2">
+          <input type="text" name="field1" placeholder="Forename" />
+          <input type="text" name="field1" placeholder="Surname" />
+          <input type="text" name="field1" placeholder="Job Title" />
+          <input type="text" name="field1" placeholder="Company" />
+          <input type="text" name="field1" placeholder="Address" />
+          <input type="text" name="field1" placeholder="" />
+          <input type="text" name="field1" placeholder="" />
+          <input type="text" name="field1" placeholder="Postcode" />
+        </div>
+        <div class="col-2">
+          <input type="text" name="number" placeholder="Tel" />
+          <input type="email" name="field2" placeholder="Email" />
+          <input type="url" name="field3" placeholder="Website" />
+          <input type="text" name="number" placeholder="Fax" />
+          <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
+        </div>
+        <div class="submit">
+          <input type="button" value="Send Message" />
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+{% include footer.html %}
+
+</body>
+</html>
