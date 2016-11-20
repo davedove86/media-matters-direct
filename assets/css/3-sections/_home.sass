@@ -1,0 +1,74 @@
+h1
+  color: #DB2616
+  font-size: 30px
+  text-align: center
+  padding: 20px 0
+  margin: 0
+
+.parallax
+  /* The image used */
+  background-image: url("../img/parallax.png")
+
+  /* Set a specific height */
+  height: 300px
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed
+  background-position: center
+  background-repeat: no-repeat
+  // background-size: cover
+  max-width: 100%
+  margin: 20px 0
+
+.center
+  h5
+    font-size: 18px
+    font-weight: normal
+
+.services-wrap
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  padding-bottom: 20px
+
+  img
+    height: 100px
+    width: 100px
+
+  .services-items
+    width: 33.333333333%
+    text-align: center
+    padding: 20px
+    margin: 0 auto
+
+    h3
+      margin: 0
+      padding: 5px 0
+      font-size: 20px
+      font-weight: normal
+
+@media (max-width: 650px)
+  .face-lockup
+    display: block
+    text-align: center
+
+    div
+      display: inline-block
+
+    .face-img
+      display: block
+      background:
+        position: center center
+        repeat: no-repeat
+      margin: 0 auto 30px
+
+    [class^="icon-"]
+      margin: 10px 9%
+
+
+  .services-wrap
+    display: block
+
+    .services-items
+      margin: 0 auto
+      width: 90%
