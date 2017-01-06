@@ -1,3 +1,5 @@
+// General Styles
+
 *
   -webkit-box-sizing: border-box
   -moz-box-sizing: border-box
@@ -8,7 +10,7 @@ body
   font-size: 16px
   line-height: 1.6
   font-family: 'Fira Sans', sans-serif
-  color: #666
+  color: #333
   -webkit-font-smoothing: antialiased
   -webkit-text-size-adjust: 100%
 
@@ -16,19 +18,16 @@ body
     list-style-type: none
 
   a
+    text-decoration: none
     color: inherit
     list-style-type: none
-    text-decoration: none
-    outline: 0
 
-    &:hover,
-    &:focus
-      color: lighten($accent, 20%)
+// Center Align
 
 .center
   text-align: center
-  padding: 0 20px
-  max-width: 600px
+  padding: 0 100px
+  max-width: 100%
   margin: 0 auto
 
 // Two Column Layout
@@ -44,6 +43,7 @@ body
   flex: 1
 
 // Flex Classes
+
 .flex, .flex-price
   display: flex
   flex-direction: row
@@ -60,6 +60,8 @@ body
   box-sizing: border-box
   width: 100%
 
+.center
+  padding: 0 20px
 
 @media (max-width: 800px)
   .flex
